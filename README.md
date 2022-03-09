@@ -12,19 +12,15 @@ Glass is a fascinating substance: a solid material with the molecular structure 
 ## Project Description
   Our objective was to create and compare models that could be used to predict a glass's type, and to discover which model is most accurate. The dataset came from the University of California Institute of Machine Learning via Kaggle (https://www.kaggle.com/uciml/glass), and is comprised of 10 columns:
   
-  1-Refractive Index
+  1 - Refractive Index, which is the 
   
-  2-9 Substances
+  2–9 Substances that make up the composition of the glass sample
   
-  10-Class (Type 1–7)
+  10 - Type of Glass (Type 1–7) and the prediction target
   
 Since types 1 and 2 represent a majority of the observations in the dataset, we chose to test multi-classification models which would perform decently with imbalanced data, and resampled the data to help represent the minority classes.
-  
-  
-  
-## Key Topics/Table of Contents
 
-Key Techniques
+## Key Techniques
 
  Pandas: downloading the dataset and importing into a dataframe,
           cleaning and renaming columns
@@ -62,27 +58,29 @@ Nasiba – RandomForest
 
 ## Lessons Learned 
 
---data doesn’t have any examples of Type 4 (found out half-way through)
+The dataset doesn’t have any examples of Type 4, so we had to decide how to handle that class, whether to include it. 
+Research showed that Type 4 is typically made through a non-float process which is less common now and largely absent from commercial
+production, so we decided to ignore the class and focus our predictions on the other types of glass.
 
 
 ## Conclusions
 
-  some of the challenges you faced
-  
-  what would you add/change/enhance in the future?
-  
 Which model performed the best overall? Based on accuracy score
 
 Why might that be? ???
+
 
 What was your motivation?
 Why did you build this project?
 What problem does it solve?
 What did you learn?
 What makes your project stand out?
-If your project has a lot of features, consider adding a "Features" section and listing them here.
 
-Why is glass important to study?  Medical applications, technology, crime scene forensics, architecture 
+
+Why is glass important to study?  Medical applications, information technology, crime scene forensics, architecture 
+
+
+what would you add/change/enhance in the future? 
 
 
 ## License
