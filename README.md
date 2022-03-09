@@ -1,22 +1,20 @@
-# Final Project, Launchcode Women+ Fall 2021 Cohort
+# Breaking the Glass Ceiling: Looking at Glass Type Classification
+## Final Project, Launchcode Women+ Fall 2021 Cohort
 
-Breaking the Glass Ceiling: Looking at Glass Type Classification
+### Collaborators:
 
-Collaborators:
-Nasiba Adilova
-Heather Leighton-Dick
-Madison Massie
+Nasiba Adilova, Heather Leighton-Dick, Madison Massie
 
 
-Overview
+## Overview
 Glass is a fascinating substance: a solid material with the molecular structure of a liquid. Glass occurs naturally in the world, usually as the byproduct of a natural phenomenon like molten lava or a lightning or meteor strike. Humans have been making glass since about 3600 BC, and initially used it for decoration and food storage/serving. Today, glass is used around the world in many different chemical variations and in many different industries (medicine, technology, crime scene forensics, and construction, to name a few). The word glass mostly refers to materials that are at least 70% silicate, but the presence or absence of other materials such as barium, iron, calcium, and sodium create different types, or classes, of glass which share physical properties.
 
-Project Description
+## Project Description
   Our objective was to create and compare models that could be used to predict a glass's type
   why you used the techniques you used
   
   
-Key Topics/Table of Contents
+## Key Topics/Table of Contents
 
 Key Techniques/How to get set up to do the project yourself
   download Kaggle dataset
@@ -38,7 +36,7 @@ Heather – SVM (Linear, RBF, Polynomial)
 
 RESULT: 3 people with same dataset
 
-Conclusions
+## Conclusions
   some of the challenges you faced
   what would you add/change/enhance in the future?
   Conclusions:
@@ -48,9 +46,9 @@ Why is glass important to study?  Medical applications, technology,
 
 Credits/
 
-License GPL?
+## License GPL?
 
-Helpful Links
+## Helpful Links
 https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 
 
