@@ -36,7 +36,8 @@ Key Techniques
  Sklearn: Train-test-split, using same random state (42) and test size (20%)
           accuracy and ROC scores, ROC AUC curves, confusion matrices
 
-
+ SQL: ETL, create a database
+ !
 
 ### trying different models
 
