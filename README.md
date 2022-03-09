@@ -49,6 +49,10 @@ Credits/
 ## License GPL?
 
 ## Helpful Links
+Corning Museum of Glass: 
+https://www.cmog.org/article/chemistry-glass
+
+How to Write a Good Readme: 
 https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 
 
