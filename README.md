@@ -24,29 +24,28 @@ Since types 1 and 2 represent a majority of the observations in the dataset, we 
   
 ## Key Topics/Table of Contents
 
-Key Techniques/How to get set up to do the project yourself
+Key Techniques
 
-  download Kaggle dataset
-    website
-  cleaning/renaming columns
+ Pandas: downloading the dataset and importing into a dataframe,
+          cleaning and renaming columns
+          
+ Standar Scaler: make sure all the columns are standardized
 
-SMOTE resampling
+ SMOTE resampling: adding similar minority datapoints to help represent minority glass types 
 
-Train-test-split using same random state (42) and test size (20%)
+ Sklearn: Train-test-split, using same random state (42) and test size (20%)
+          accuracy and ROC scores, ROC AUC curves, confusion matrices
 
-RESULT: 3 people with same dataset
+
 
 ### trying different models
 
-Nasiba – RandomForest
 
 Madison – ANN, KNN
 
 Heather – SVM (Linear, RBF, Polynomial)
-    
-  instructions/examples so users can use the project
-  
-  include screenshots
+
+Nasiba – RandomForest
 
 
 ## Conclusions
