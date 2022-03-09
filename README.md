@@ -71,7 +71,7 @@ production, so we decided to ignore the class and focus our predictions on the o
 
 
 ## Conclusions
-![bargraphaccuracy](https://user-images.githubusercontent.com/91164907/157535812-fc9b3810-4cc9-4e93-96da-1b1ac45e062c.jpg)
+<img src="https://user-images.githubusercontent.com/91164907/157535812-fc9b3810-4cc9-4e93-96da-1b1ac45e062c.jpg" alt="bargraphaccuracy" width="500"/>
 
 The RandomForest multi-classification model performed the best overall,
 
