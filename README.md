@@ -10,12 +10,12 @@ Nasiba Adilova, Heather Leighton-Dick, Madison Massie
 Glass is a fascinating substance: a solid material with the molecular structure of a liquid. Glass occurs naturally in the world, usually as the byproduct of a natural phenomenon like molten lava or a lightning or meteor strike. Humans have been making glass since about 3600 BC, and initially used it for decoration and food storage/serving. Today, glass is used around the world in many different chemical variations and in many different industries (medicine, technology, building construction, and construction, to name a few). The word "glass" usually refers to materials that are at least 70% silicate, but the presence or absence of other materials such as barium, iron, calcium, and sodium create different types, or classes, of glass which share physical properties. Classifying glass means being able to predict its physical qualities from its chemical makeup, as well as being able to figure out its source from its physical qualities.
 
 ## Project Description
-  Our objective was to create and compare models that could be used to predict a glass's type, and to discover which model is most accurate. The dataset came from the University of California Naval XXX via Kaggle (https://www.kaggle.com/uciml/glass), and is comprised of 10 columns: 
+  Our objective was to create and compare models that could be used to predict a glass's type, and to discover which model is most accurate. The dataset came from the University of California Institute of Machine Learning via Kaggle (https://www.kaggle.com/uciml/glass), and is comprised of 10 columns: 
   1-Refractive Index
   2-9 Substances
   10-Class (Type 1–7)
   
-  How many of each type are in the dataset? Since xxxx, we chose to test multi-classification models which would perform decently with imbalanced data.
+  How many of each type are in the dataset? Since xxxx, we chose to test multi-classification models which would perform decently with imbalanced data, and resampled the data to help represent the minority classes.
   
   
   
