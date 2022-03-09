@@ -12,7 +12,7 @@ Glass is a fascinating substance: a solid material with the molecular structure 
 ## Project Description
   Our objective was to create and compare models that could be used to predict a glass's type, and to discover which model is most accurate. The dataset came from the University of California Institute of Machine Learning via Kaggle (https://www.kaggle.com/uciml/glass), and is comprised of 10 columns:
   
-  1 - Refractive Index, which is the 
+  1 - Refractive Index, which is the measure of the bending of a ray of light when passing from one medium into another; in this case, the bending of light when       it passes through a piece of glass
   
   2–9 Formers, Fluxers, Stabilizers: substances that make up the composition of the glass sample
   
@@ -75,21 +75,19 @@ production, so we decided to ignore the class and focus our predictions on the o
 
 The RandomForest multi-classification model performed the best overall,
 
-Why might that be? ???
+We chose to look at glass because we were curious about how exactly glass classification is helpful, and about which data model would best suit the data. It turns out that glass classification is a fairly important part of lots of industries, including:
 
+-- construction (window glass, fiberglass insulation)
 
-What was your motivation?
-Why did you build this project?
-What problem does it solve?
-What did you learn?
-What makes your project stand out?
+-- information technology (fiber optics, also silica-free glasses are often useful in modern communications technology)
 
+-- crime scene forensics (looking at refractive index to help identify the source(s) of glass shards from a car collison)
 
-Why is glass important to study?  Medical applications, information technology, crime scene forensics, architecture 
+-- food-safe preparation and storage
 
+-- medicine (glass prosthetic eyes (old technique), glass scaffolds for bone regeneration (development within the last ten or fifteen years))
 
-what would you add/change/enhance in the future? 
-
+There are a lot of investigations out there which apply only one model to this dataset, but we wanted to compare the models' performance. If I had more time, I'd dive into the physical and chemical properties medical grade glass and compare it to the glass samples' composition in this dataset.
 
 ## License
 
