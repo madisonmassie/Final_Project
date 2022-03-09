@@ -12,7 +12,7 @@ Glass is a fascinating substance: a solid material with the molecular structure 
 ## Project Description
   Our objective was to create and compare models that could be used to predict a glass's type, and to discover which model is most accurate. The dataset came from the University of California Institute of Machine Learning via Kaggle (https://www.kaggle.com/uciml/glass), and is comprised of 10 columns:
   
-  1 - Refractive Index, which is the 
+  1 - Refractive Index, which is the measure of the bending of a ray of light when passing from one medium into another; in this case, the bending of light when       it passes through a piece of glass
   
   2–9 Formers, Fluxers, Stabilizers: substances that make up the composition of the glass sample
   
