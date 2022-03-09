@@ -36,17 +36,33 @@ Key Techniques
  Sklearn: Train-test-split, using same random state (42) and test size (20%)
           accuracy and ROC scores, ROC AUC curves, confusion matrices
 
- SQL: ETL, create a database
-![data%20ER%20model.png]
+ ## SQL: ETL: Create A Database
 
-### trying different models
+<img width="512" alt="data ER model" src="https://user-images.githubusercontent.com/91164907/157516358-5c51d93d-ff12-4416-8c6d-d784e441d10b.png">
 
+
+## SQL Queries
+
+What is the most common chemical element in glass?
+
+Which element is the least common?
+
+Is there an element present that doesn’t change a glass sample’s type?
+
+Which model performed best when comparing observed type to predicted type?
+
+
+## Trying Different Models
 
 Madison – ANN, KNN
 
 Heather – SVM (Linear, RBF, Polynomial)
 
 Nasiba – RandomForest
+
+## Lessons Learned 
+
+--data doesn’t have any examples of Type 4 (found out half-way through)
 
 
 ## Conclusions
@@ -58,6 +74,13 @@ Nasiba – RandomForest
 Which model performed the best overall? Based on accuracy score
 
 Why might that be? ???
+
+What was your motivation?
+Why did you build this project?
+What problem does it solve?
+What did you learn?
+What makes your project stand out?
+If your project has a lot of features, consider adding a "Features" section and listing them here.
 
 Why is glass important to study?  Medical applications, technology, crime scene forensics, architecture 
 
@@ -85,25 +108,4 @@ https://www.nature.com/articles/srep19361
 
 How to Write a Good Readme: 
 https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
-
-
-
-What was your motivation?
-Why did you build this project?
-What problem does it solve?
-What did you learn?
-What makes your project stand out?
-If your project has a lot of features, consider adding a "Features" section and listing them here.
-
-
-
-
-SQL Queries:
-What is the most common chemical element in glass?
-Which element is the least common?
-Is there an element present that doesn’t change a glass sample’s type?
-Which model performed best when comparing observed type to predicted type?
-
-Lessons Learned: --data doesn’t have any examples of Type 4 (found out half-way through)
-
 
