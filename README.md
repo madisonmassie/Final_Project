@@ -14,9 +14,9 @@ Glass is a fascinating substance: a solid material with the molecular structure 
   
   1 - Refractive Index, which is the 
   
-  2–9 Substances that make up the composition of the glass sample
+  2–9 Formers, Fluxers, Stabilizers: substances that make up the composition of the glass sample
   
-  10 - Type of Glass (Type 1–7) and the prediction target
+  10 - Type of Glass (Type 1–7) [the prediction target]
   
 Since types 1 and 2 represent a majority of the observations in the dataset, we chose to test multi-classification models which would perform decently with imbalanced data, and resampled the data to help represent the minority classes.
 
@@ -29,8 +29,15 @@ Since types 1 and 2 represent a majority of the observations in the dataset, we 
 
  SMOTE resampling: adding similar minority datapoints to help represent minority glass types 
 
- Sklearn: Train-test-split, using same random state (42) and test size (20%)
-          accuracy and ROC scores, ROC AUC curves, confusion matrices
+ Sklearn: 
+ 
+ -- Train-test-split, using the same random state (42) and test size (20%) for every model
+ 
+ -- Accuracy and ROC scores
+ 
+ -- ROC AUC curves
+ 
+ -- Confusion matrices
 
  ## SQL: ETL: Create A Database
 
@@ -64,8 +71,9 @@ production, so we decided to ignore the class and focus our predictions on the o
 
 
 ## Conclusions
+![bargraphaccuracy](https://user-images.githubusercontent.com/91164907/157535812-fc9b3810-4cc9-4e93-96da-1b1ac45e062c.jpg)
 
-Which model performed the best overall? Based on accuracy score
+The RandomForest multi-classification model performed the best overall,
 
 Why might that be? ???
 
