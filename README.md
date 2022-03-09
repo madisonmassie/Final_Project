@@ -37,7 +37,7 @@ Key Techniques
           accuracy and ROC scores, ROC AUC curves, confusion matrices
 
  SQL: ETL, create a database
- !
+![data%20ER%20model.png]
 
 ### trying different models
 
